@@ -1,0 +1,40 @@
+@import url(fontes.css);
+body {
+  color: white;
+  line-height: 1.6;
+  background: url("../Imagens/geranimo-yKiLWMWquKE-unsplash.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 0vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.conteudo {
+  max-width: 62.5rem;
+  margin: 8.75rem auto 3.125rem auto;
+  padding: 1.875rem 2.5rem;
+  background: rgba(0, 0, 0, 0.527);
+  border-radius: 0.75rem;
+
+}
+
+.texto-colunas {
+  column-count: 2;
+  column-gap: 2.5rem;
+}
+
+h1 {
+  font-family: "Italiana", serif;
+  font-weight: 100;
+  margin-bottom: 1.25rem;
+  font-size: 2em;
+}
+
+p {
+  font-family: "Montserrat", serif;
+  font-size: 1.1em;
+  margin-bottom: 0.9375rem;
+  text-align: justify;
+}
+

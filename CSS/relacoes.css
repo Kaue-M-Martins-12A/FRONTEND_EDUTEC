@@ -1,0 +1,43 @@
+@import url(./cabecalho.css);
+@import url(fontes.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Imagens/image\ 4.png);
+    background-size: 125rem;
+    background-position: -3.125rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100svh;
+}
+
+.siema {
+    max-width: 75rem;
+    height: 31.25rem;
+    padding-top: 3.125rem;
+    padding-left: 3.125rem;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10.9375rem;
+}
+
+.imgsiema {
+    border-radius: 100%;
+}
+
+.imgsiema:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+}

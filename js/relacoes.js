@@ -1,0 +1,1 @@
+const slider = new Siema({ perPage: 3})

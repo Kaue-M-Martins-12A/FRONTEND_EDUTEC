@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MALK - Criar Conta</title>
+  <link rel="stylesheet" href="./CSS/criarconta.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="cabeçalho">
+      <nav>
+        <a href="./index.html"><img src="./Imagens/logo.png" alt="logo" class="logo"></a> 
+        <ul>
+          <li><a href="./relacoes.html" class="active">Relações</a></li>
+          <li><a href="./jogo.html">Jogo</a></li>
+          <li><a href="./recomendacoes.html">Recomendações</a></li>
+          <li><a href="./sobrenos.html">Sobre nós</a></li>
+          <li><a href="./login.html">
+            <div class="user-icon-box">
+              <svg viewBox="0 0 24 24" class="user-icon">
+                <circle cx="12" cy="8" r="4" stroke="white" stroke-width="2" fill="none"/>
+                <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="white" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="avatar">
+      <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Avatar">
+    </div>
+
+    <h1>Criar conta</h1>
+
+    <form id="form-criar-conta">
+      <div class="linha">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="E-MAIL" required>
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="USER NAME" required>
+      </div>
+
+      <div class="linha">
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="PASSWORD" required>
+      </div>
+
+      <button type="submit">Cadastrar-se</button>
+    </form>
+  </div>
+
+  <!-- Importa o JS correto -->
+  <script src="./js/criarconta.js"></script>
+</body>
+</html>

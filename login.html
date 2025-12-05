@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MALK - Relações entre os Animais</title>
+  <link rel="stylesheet" href="./CSS/login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="cabeçalho">
+      <nav>
+        <a href="./index.html"><img src="./Imagens/logo.png" alt="logo" class="logo"></a> 
+        <ul>
+          <li><a href="./relacoes.html" class="active">Relações</a></li>
+          <li><a href="./jogo.html">Jogo</a></li>
+          <li><a href="./recomendacoes.html">Recomendações</a></li>
+          <li><a href="./sobrenos.html">Sobre nós</a></li>
+          <li><a href="./login.html">
+            <div class="user-icon-box">
+              <svg viewBox="0 0 24 24" class="user-icon">
+                <circle cx="12" cy="8" r="4" stroke="white" stroke-width="2" fill="none"/>
+                <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="white" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="login-container">
+    <div class="login-box">
+      <h1>Entrar</h1>
+
+      <!-- FORMULÁRIO DE LOGIN -->
+      <form id="login-form">
+        <div class="input-group">
+          <label for="email">Usuário (email)</label>
+          <input type="text" id="email" placeholder="Digite seu email" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Digite sua senha" required>
+        </div>
+
+        <button type="submit" class="btn">Entrar</button>
+      </form>
+
+      <a href="./criarconta.html" class="register">Criar uma conta</a>
+    </div>
+  </div>
+
+  <!-- Importa o JS correto -->
+  <script src="./js/login.js"></script>
+</body>
+</html>
